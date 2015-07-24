@@ -8,6 +8,7 @@ class DigitSum {
 
         BigInteger sum = BigInteger.ZERO;
 
+        // Faster implementation than converting to string and back again
         while (!result.equals(BigInteger.ZERO)) {
             BigInteger temp = result.divide(BigInteger.TEN);
             BigInteger digit = result.subtract(temp.multiply(BigInteger.TEN));

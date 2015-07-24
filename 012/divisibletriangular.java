@@ -1,4 +1,5 @@
 class DivisibleTriangular {
+
     public static void solve(int limit) {
         
         int number = 1;
